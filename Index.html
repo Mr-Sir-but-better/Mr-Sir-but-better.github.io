@@ -5,8 +5,8 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
 		<title>Example Website</title>
 		<meta name="author" content="name" />
-		<meta name="description" content="This is an example website" />
-		<meta name="keywords" content="best,ever,example,website" />
+		<meta name="description" content="This is an [redacted] website" />
+		<meta name="keywords" content="best,ever,[redacted],website" />
 		<style type="text/css">
 			body {
 				background: #fff;
@@ -23,10 +23,18 @@
 		</style>
 	</head>
 	<body>
+		<H1>IN CREATION</H1>
 		<p>Things I like about this website:</p>
 		<ul>
-			<li>It loads fast.</li>
-			<li>It supports dark mode</li>
+			<li>It loads.</li>
+			<li>It supports dark mode.</li>
 			<li>Otherwise nothing really.</li>
 		</ul>
-		<script type="text/javascr
+		<script type="text/javascript">
+			function greet() {
+				alert("Welcome to the [redacted] website");
+			}
+			window.onload = greet;
+		</script>
+	</body>
+</html>
