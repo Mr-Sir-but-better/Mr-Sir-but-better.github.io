@@ -1,0 +1,20 @@
+body {
+	background: #96e79c;
+	color: #225826;
+	font-size: 1.5em;
+	font-family: -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #225826;
+		color: #96e79c;
+  }
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
